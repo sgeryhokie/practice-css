@@ -1,8 +1,26 @@
+header img {
+  float: left;
+}
+article#post p.intro::first-letter {
+  font-size: 28px;
+  font-weight: bolder
+}
+blockquote q::before,
+blockquote q::after {
+  font-size: 25px;
+}
+
+article section img {
+  float: left;
+  margin: 10px 15px 16px 17px
+}
+
+section p {
+  margin-left: 15px
+}
 h2 {
-  font-size: 100%;}
-h2 p::first-letter {
-  font-size: 200%;}
+  font-size: 150%;}
 h3 {
-  font-size: 75%;}
+  font-size: 125%;}
 h4 {
-  font-size: 50%;}
+  font-size: 100%;}
