@@ -1,5 +1,7 @@
 h2 {
   font-size: 100%;}
+h2 p::first-letter {
+  font-size: 200%;}
 h3 {
   font-size: 75%;}
 h4 {
